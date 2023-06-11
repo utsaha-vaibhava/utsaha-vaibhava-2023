@@ -66,7 +66,7 @@ ul .booking-card::before {
   transition: 0.3s;
 }
 ul .booking-card .book-container {
-  height: 150px;
+  height: 133px;
 }
 ul .booking-card .book-container .content {
   position: relative;
@@ -76,11 +76,11 @@ ul .booking-card .book-container .content {
   justify-content: center;
   height: 100%;
   width: 100%;
-  transform: translateY(-200px);
+  transform: translateY(-0px);
   transition: 0.3s;
 }
 ul .booking-card .book-container .content .btn {
-  border: 3px solid white;
+  border: 3px solid rgb(255, 255, 255);
   padding: 10px 15px;
   background: none;
   text-transform: uppercase;
@@ -184,7 +184,6 @@ ul .booking-card .informations-container .more-information .info-and-date-contai
 ul .booking-card .informations-container .more-information .info-and-date-container .box.info {
   color: #ec992c;
   margin-right: 10px;
-  height: 100px;
 }
 ul .booking-card .informations-container .more-information .disclaimer {
   margin-top: 20px;
