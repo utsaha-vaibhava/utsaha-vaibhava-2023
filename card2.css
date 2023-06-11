@@ -10,7 +10,9 @@ h2 {
   color: #0a4870;
   font-weight: 500;
 }
-
+.sub-title {
+  margin: 2em 3em;
+}
 ul {
   display: flex;
   flex-wrap: wrap;
@@ -84,6 +86,7 @@ ul .booking-card .book-container .content .btn {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.3em;
+  text-decoration: none;
   color: white;
   cursor: pointer;
   transition: 0.3s;
@@ -181,6 +184,7 @@ ul .booking-card .informations-container .more-information .info-and-date-contai
 ul .booking-card .informations-container .more-information .info-and-date-container .box.info {
   color: #ec992c;
   margin-right: 10px;
+  height: 100px;
 }
 ul .booking-card .informations-container .more-information .disclaimer {
   margin-top: 20px;

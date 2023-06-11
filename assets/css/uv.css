@@ -11677,16 +11677,16 @@ pre .code {
 }
 
 .custom-navbar .navbar-toggler {
-  border: 1px solid rgba(234, 240, 252, 0.2);
-  height: 55px;
+  border: 0px solid rgba(234, 240, 252, 0.2);
+  height: 40px;
 }
 
 .custom-navbar .navbar-toggler span {
   width: 35px;
-  height: 3px;
+  height: 2px;
   display: block;
   background-color: rgba(234, 240, 252, 0.2);
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 .custom-navbar .navbar-toggler span:after, .custom-navbar .navbar-toggler span:before {
