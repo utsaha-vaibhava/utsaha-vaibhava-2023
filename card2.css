@@ -13,6 +13,7 @@ h2 {
 .sub-title {
   margin: 2em 3em;
 }
+
 ul {
   display: flex;
   flex-wrap: wrap;
@@ -110,7 +111,7 @@ ul .booking-card .informations-container .title {
   font-weight: bold;
   font-size: 1.2em;
 }
-.container {
+.container-content {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
