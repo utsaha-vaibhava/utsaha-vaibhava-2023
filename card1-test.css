@@ -6524,7 +6524,7 @@ body{
 
   @media (max-width: 500px) {
     .custom-navbar{
-        width: 100%;
+        width: 80%;
         
     }
   }
