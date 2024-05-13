@@ -11118,6 +11118,20 @@ p {
   }
 }
 
+@keyframes scale-a-lil {
+  from {
+    scale: .5;
+  }
+}
+  
+@media (prefers-reduced-motion: no-preference) {
+  .popup {
+    animation: scale-a-lil linear both;
+    animation-timeline: view();
+    animation-range: 25vh 75vh;
+  }
+}
+
 .img-wrapper {
   position: relative;
   border-radius: 0.2rem;
@@ -11322,7 +11336,7 @@ p {
 .card:hover .img-content {
   scale: 2.5;
   rotate: 30deg;
-  filter: blur(7px);
+  filter: blur(20px);
 }
 
 .card:hover .img-content svg {
@@ -11335,6 +11349,7 @@ p {
   align-items: center;
   justify-content: center;
   list-style: none;
+
   /* padding:0px 86px; */
 }
 
