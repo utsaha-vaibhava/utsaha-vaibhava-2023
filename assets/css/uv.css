@@ -12032,6 +12032,10 @@ pre .code {
 
   z-index: -1;
 }
+
+.event-ul-mob{
+  display: none;
+}
 @media (max-width: 500px){
 
   .header {
@@ -12051,6 +12055,19 @@ pre .code {
     width: 80%;
     height: 80%;
   }
+
+  .event-ul{
+    display: none;
+  }
+
+  .event-ul-mob{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  }
+  
 }
 
 
