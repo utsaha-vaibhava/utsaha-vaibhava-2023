@@ -225,6 +225,7 @@ body::before {
     margin-right: auto;
     margin-left: auto;
   }
+
   
   @media (min-width: 576px) {
     .container {
@@ -6979,7 +6980,7 @@ body::before {
     opacity: 1;
   }
   
-  @media (max-width: 400px) {
+  /* @media (max-width: 400px) {
     ul .booking-card::before {
       background: rgba(10, 72, 112, 0.6);
     }
@@ -6993,7 +6994,7 @@ body::before {
     ul .booking-card .informations-container .more-information {
       opacity: 1;
     }
-  }
+  } */
   
   
   h1 {
