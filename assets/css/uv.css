@@ -11926,6 +11926,7 @@ pre .code {
   border-bottom: 1px solid rgba(222, 226, 230, 0.2);
   padding-bottom: 6px;
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .footer .list-body {
@@ -11934,6 +11935,7 @@ pre .code {
 
 .footer .list-body p {
   margin-bottom: 5px;
+  color: white;
 }
 
 .footer .list-body p i {
