@@ -11977,8 +11977,8 @@ pre .code {
 }
 
 .header {
-  height: 70%;
-  min-height: 600px;
+  height: 40%;
+  min-height: 500px;
   /* background: url(../imgs/logo.jpg) no-repeat center center fixed; */
   background-size: cover;
 }
@@ -12038,11 +12038,16 @@ pre .code {
 .event-ul-mob{
   display: none;
 }
+
+.rdj{
+  width: 80%;
+  height: 80%;
+}
 @media (max-width: 500px){
 
   .header {
     height: 10%;
-    min-height: 10%;
+    min-height: 15%;
   }
 
   .header .overlay{
@@ -12068,6 +12073,11 @@ pre .code {
   align-items: center;
   justify-content: center;
   list-style: none;
+  }
+
+  .rdj{
+    width: 100%;
+    height: 100%;
   }
   
 }
